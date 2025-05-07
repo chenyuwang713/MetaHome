@@ -15,17 +15,19 @@ Backend powered by Flask for prompt processing and model generation
 Project Structure
 
 File	Description
-GLBLoader.cs	Downloads and imports GLB models into Unity at runtime
-InputUI.cs	Handles prompt input from the Unity interface
-Llama_server.py	Flask API to interact with Meta LLaMA
-Llama.cs	Unity-side HTTP client for sending prompts to Flask server
-ObjectMover.cs	Allows users to move and rotate spawned assets
-Openshape__e.py	Generates 3D mesh from prompt using OpenShape/Shape-E
-PromptToGLB.cs	Controls GLB download and assignment in Unity
-RuntimeEditorUI.cs	Displays object-specific interaction menus in Unity
-floatingmenucode.cs	UI logic for radial floating menus around 3D objects
-flask_server.py	Handles Shape-E or OpenShape prompt generation endpoints
-Workflow Overview
+| File                  | Description                                                |
+| --------------------- | ---------------------------------------------------------- |
+| `GLBLoader.cs`        | Downloads and imports GLB models into Unity at runtime     |
+| `InputUI.cs`          | Handles prompt input from the Unity interface              |
+| `Llama_server.py`     | Flask API to interact with Meta LLaMA                      |
+| `Llama.cs`            | Unity-side HTTP client for sending prompts to Flask server |
+| `ObjectMover.cs`      | Allows users to move and rotate spawned assets             |
+| `Openshape__e.py`     | Generates 3D mesh from prompt using OpenShape/Shape-E      |
+| `PromptToGLB.cs`      | Controls GLB download and assignment in Unity              |
+| `RuntimeEditorUI.cs`  | Displays object-specific interaction menus in Unity        |
+| `floatingmenucode.cs` | UI logic for radial floating menus around 3D objects       |
+| `flask_server.py`     | Handles Shape-E or OpenShape prompt generation endpoints   |
+
 
 User enters a text prompt in Unity
 The prompt is sent to a Flask server powered by LLaMA
