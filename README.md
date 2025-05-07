@@ -58,9 +58,4 @@ Output
 
 All generated GLB files are stored in the results/ directory. These assets can either be dragged manually into Unity or loaded automatically through GLBLoader.cs.
 
-Future Improvements
 
-Add voice recognition with Whisper or WebSpeech
-Blockchain metadata for ownership tracking
-Dynamic stylization using Text2Mesh integration
-WebXR deployment for browser-based access
